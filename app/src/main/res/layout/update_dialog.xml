@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        android:background="@drawable/button_bg">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="New Update Is Available"
+                    android:textColor="#000"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/version_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/t1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#000"
+                    android:textSize="20sp"></TextView>
+
+                <LinearLayout
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/version_num"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/update1_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 "
+                        android:textSize="15sp"
+                        android:gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/update2_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 "
+                        android:textSize="15sp"
+                        android:gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/update3_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="\u2022 "
+                        android:textSize="15sp"
+                        android:gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="8dp"
+                        android:textColor="#000">
+                    </TextView>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/view"
+                    android:gravity="center"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:id="@+id/update_now_bttn"
+                        android:layout_width="100dp"
+                        android:layout_height="60dp"
+                        android:text="Update"
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#000"
+                        android:layout_marginRight="50dp"></TextView>
+
+
+
+                    <TextView
+                        android:id="@+id/cancel_bttn"
+                        android:layout_width="100dp"
+                        android:layout_height="60dp"
+                        android:text="Not now"
+                        android:gravity="center"
+                        android:textSize="20dp"
+                        android:textColor="#000"></TextView>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>

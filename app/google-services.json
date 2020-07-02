@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "736911640314",
+    "firebase_url": "https://beard-maker.firebaseio.com",
+    "project_id": "beard-maker",
+    "storage_bucket": "beard-maker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:736911640314:android:6db64c176bbaed9068eb43",
+        "android_client_info": {
+          "package_name": "com.androdude.beardmaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "736911640314-v7kf6q8te6mirscasj0j2itsuoj7bbov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm0QW0zALCH-uOnxSb2kJxTsXGP4VFQyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "736911640314-v7kf6q8te6mirscasj0j2itsuoj7bbov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

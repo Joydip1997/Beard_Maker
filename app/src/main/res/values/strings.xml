@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Beard Maker</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="githubUrl">https://github.com/joydip1997?fbclid=IwAR005_yIwzq71Uuz1oJNu-SQtEFq-8OIeZG4nZZwnVCW1yqhznaDKB2WYyo</string>
+    <string name="googlePlayStore">https://play.google.com/store/apps/developer?id=Joydip+Bose</string>
+    <string name="youtube">https://www.youtube.com/technicalstudio</string>
+    <string name="website">http://androdude.com/</string>
+</resources>
